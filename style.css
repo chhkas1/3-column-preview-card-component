@@ -1,0 +1,87 @@
+body{
+    padding: 0% 10%;
+}
+.parent{
+    padding: 10% 17% ;
+    background-color:  hsl(0, 0%, 95%);
+}
+.container{
+    border: 0px solid;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 400px;
+    
+}
+.parts{
+    padding: 30px;
+    
+    
+}
+.sed{
+    color: hsl(0, 0%, 95%);
+    font-size: 40px;
+    font-family: 'Big Shoulders Display', sans-serif ;
+}   
+
+.sed2{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 25px;
+    color:  hsla(0, 0%, 100%, 0.75);
+}
+.sed3{
+    margin-top: 3px;
+
+}
+.img1{
+    width: 50px;
+    height:30px;
+}
+.but{
+    margin-top: 100px;
+
+}
+.butt{
+    width: 120px;
+    height: 40px;
+    border: 2px solid #f3f0f0d8 ;
+    border-radius: 30px;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: 700;
+    
+}
+.butt:hover{
+        background-color: inherit;
+}
+#butt1{
+    color:  hsl(179, 100%, 13%);
+}
+#butt2{
+    color: hsl(184, 100%, 22%);
+}
+#butt3{
+    color: hsl(31, 77%, 52%);
+}
+#butt3:hover{
+    color: #f3f0f0d8;
+}
+#butt2:hover{
+    color: #f3f0f0d8;
+}
+#butt1:hover{
+    color: #f3f0f0d8;
+}
+#cet1{
+     background-color: hsl(31, 68%, 53%);
+     border-bottom-left-radius: 10px;
+     border-top-left-radius: 10px;
+}
+#cet2{
+     background-color: hsl(184, 100%, 22%);
+}
+#cet3{
+     background-color: hsl(179, 100%, 13%);
+     border-bottom-right-radius: 10px;
+     border-top-right-radius: 10px;
+}
